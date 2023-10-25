@@ -1,9 +1,9 @@
-#include "mmain.h"
+#include "main.h"
 
 /**
- * wildcmp - Compares two strings
- * @s1: Pointer to string param
- * @s2: Pointer to string param
+ * wildcmp - Compare two strings
+ * @s1: Pointer to string params
+ * @s2: Pointer to string params
  * Return: 0
  *
  */
