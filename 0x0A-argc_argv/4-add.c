@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - Adds positive numbers
@@ -17,7 +19,7 @@ int main(int argc, char argv[])
 		{
 			if (!isdigit(argv[a][b]))
 			{
-				printf("Error\n")
+				printf("Error\n");
 				return (1);
 			}
 		}
