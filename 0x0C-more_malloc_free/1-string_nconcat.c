@@ -1,8 +1,9 @@
 #include <stdlib.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
- * _strlen - Calculate and return the string lenght
+ * _strlen - Calculate and return the string length
  * @string: String
  * Return: String length
  *
@@ -15,9 +16,8 @@ int _strlen(char *string)
 		;
 	return (i);
 }
-
 /**
- * string_nconcat - Concatenaes two strings
+ * string_nconcat - Concatenate s1 and n bytes of s2; return ptr to string
  * @s1: String 1
  * @s2: String 2
  * @n: n byte to concat from string 2
